@@ -7,7 +7,6 @@
 #define False   0
 #define True    1
 
-
 struct Bitmap {
     int rows;
     int cols;
