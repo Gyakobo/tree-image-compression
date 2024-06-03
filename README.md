@@ -210,9 +210,11 @@ One method to compress an image is to store it in a tree data structure where ea
 
 </td><td>
 
+<!--
 | 1 | 0 |
 |---|---|
 | 0 | 2 |
+-->
 
 <table>
 <tr>
