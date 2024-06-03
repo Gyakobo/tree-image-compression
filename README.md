@@ -10,7 +10,7 @@
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
-This project aims utilize a graph(a tree) as form of two-dimensional image compression by implementing a special kind of data structure where it basically groups repeating variables into a node and ungroups non-repeating values into their own nodes.
+This project aims utilize a graph(a tree) as a form of two-dimensional image compression by implementing a special kind of data structure where it basically groups repeating variables into a node and ungroups non-repeating values into their own nodes.
 
 ## Introduction
 
@@ -300,6 +300,8 @@ One method to compress an image is to store it in a tree data structure where ea
 >Each circle denotes a node with 4 other leaf nodes. Each double circle is the 'end' node with no child leaf nodes(null references).
 
 ## Code snippets
+
+
 
 ## License
 MIT
