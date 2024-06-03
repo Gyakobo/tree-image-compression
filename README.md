@@ -302,7 +302,16 @@ One method to compress an image is to store it in a tree data structure where ea
 >[!NOTE]
 >Each circle denotes a node with 4 other leaf nodes. Each double circle is the 'end' node with no child leaf nodes(null references).
 
-6) Finally, the image can then be encoded in a sequence of integers by performing a preorder traversal of the corresponding. You could of course change the traversal order by just switching the places of the `preorder(root->children[n])` functions. Hence you could even easily simulate both inorder and postorder traversals or any other traversal you may come up with.
+6) Finally, the image can then be encoded in a sequence of integers by performing a preorder traversal of the corresponding. 
+
+| -1 | 3 | -1 | 2 | 1 |
+|---|---|---|---|---|
+| -1 | 0 | 5 | 0 | 0 |
+| -1 | 1 | 0 | 0 | 2 |
+| 1 | -1 | 1 | -1 | 0 |
+| 3 | 0 | 0 | 5 | 0 |
+
+You could of course change the traversal order by just switching the places of the `preorder(root->children[n])` functions. Hence you could even easily simulate both inorder and postorder traversals or any other traversal you may come up with.
 
 ```c
 void preorder(struct Node *root) {
