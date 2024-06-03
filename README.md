@@ -20,8 +20,7 @@ In this example specifically we shall be compressing a grayscale image. Given th
 
 One method to compress an image is to store it in a tree data structure where each node would have up to 4 children. Each of them shall represent a select partition of the image in one of the four quartiles: northwest, northeast, southwest, and southeast. Needless to say, the root node marked with a `-1` will either represent the entire image or another subset of partitions. The partitioning process will continue till each node in the partitioned subset carries the same color intensity. 
 
-Let's consider the following image content from the given [sample.txt](https://github.com/Gyakobo/tree-image-compression/blob/main/sample.txt):
-
+* Let's consider the following image content from the given [sample.txt](https://github.com/Gyakobo/tree-image-compression/blob/main/sample.txt):
 
 | 3 | 3 | 3 | 3 | 2 | 2 | 1 | 1 |
 |---|---|---|---|---|---|---|---|
@@ -36,35 +35,43 @@ Let's consider the following image content from the given [sample.txt](https://g
 >[!NOTE]
 >Each 8 lines in the sample file denotes a row in the [image](https://github.com/Gyakobo/tree-image-compression/blob/main/sample.txt) file
 
-Assuming all the pixels are not unique, then partition the image into equal subsets, in out into 4 by 4 smaller images as shown by the below:
+* Assuming all the pixels are not unique, then partition the image into equal subsets, in out into 4 by 4 smaller images as shown by the below:
 
 <table>
 <tr><td>
+
 | 3 | 3 | 3 | 3 |
 |---|---|---|---|
 | 3 | 3 | 3 | 3 |
 | 3 | 3 | 3 | 3 |
 | 3 | 3 | 3 | 3 |
+
 </td><td>
+
 | 2 | 2 | 1 | 1 |
 |---|---|---|---|
 | 2 | 2 | 1 | 1 |
 | 0 | 5 | 1 | 0 |
 | 0 | 0 | 0 | 2 |
+
 </td></tr>
 
 <tr><td>
+
 | 1 | 1 | 1 | 1 |
 |---|---|---|---|
 | 1 | 1 | 1 | 1 |
 | 1 | 1 | 1 | 1 |
 | 1 | 1 | 1 | 1 |
+
 </td><td>
+
 | 1 | 1 | 0 | 3 |
 |---|---|---|---|
 | 1 | 1 | 0 | 0 |
 | 5 | 5 | 0 | 0 |
 | 5 | 5 | 0 | 0 |
+
 </td></tr>
 </table>
 
