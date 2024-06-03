@@ -12,4 +12,14 @@ Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 This project aims utilize a graph(a tree) as form of two-dimensional image compression by implementing a special kind of data structure where it basically groups repeating variables into a node and ungroups non-repeating values into their own nodes.
 
-Given that pixels are usually stored as a series of integers, we would be using the `int` type to store said pixels.
+## Introduction
+
+In this example specifically we shall be compressing a grayscale image. Given that pixels are usually stored as a series of integers, we would be using the `int` type to store said pixels.
+
+## Methodology
+
+One method to compress an image is to store it in a tree data structure where each node would have up to 4 children. They shall present  
+
+
+## License
+MIT
