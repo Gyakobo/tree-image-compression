@@ -199,13 +199,13 @@ One method to compress an image is to store it in a tree data structure where ea
 <table style="border-collapse: seperate; border-spacing: 1rem;">
 
 <tr>
-<td>0</td>
-<td>5</td>
+<td><table><tr><td>0</td></tr></table></td>
+<td><table><tr><td>5</td></tr></table></td>
 </tr>
 
 <tr>
-<td>0</td>
-<td>0</td>
+<td><table><tr><td>0</td></tr></table></td>
+<td><table><tr><td>0</td></tr></table></td>
 </tr>
 
 </table>
