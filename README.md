@@ -292,6 +292,8 @@ One method to compress an image is to store it in a tree data structure where ea
 </td></tr>
 </table>
 
+* All this partitions can thereafter be presented in the following tree below. Each node the tree shall have four other nodes representing the four partitions (NW, NE, SW, and SE order). If however the partition fully consists of pixels of the same intensity, then the node would just be labeled with such intensity.
+
 <image src="./assets/compression_tree.png">
 
 ## License
