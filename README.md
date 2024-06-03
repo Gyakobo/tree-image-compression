@@ -196,16 +196,16 @@ One method to compress an image is to store it in a tree data structure where ea
 | 0 | 0 |
 -->
 
-<table>
+<table gap="1rem">
 
 <tr>
-<table><td>0</td></table>
-<table><td>5</td></table>
+<td>0</td>
+<td>5</td>
 </tr>
 
 <tr>
-<table><td>0</td></table>
-<table><td>0</td></table>
+<td>0</td>
+<td>0</td>
 </tr>
 
 </table>
