@@ -354,5 +354,9 @@ struct Tree {
 
 ## Performance
 
+When it comes to performance the numbers pretty much vary. If for instance an image has little to no unique values then the compression would be at its best and utmost performance. Otherwise, the compression would have varying results. 
+
+In our case the [input file](./input.txt) weights `128 bytes`, and when compressed, the [output file](./output.txt) weights just `56 bytes`. Thus so far the compressed file halved the size of the original. 
+
 ## License
 MIT

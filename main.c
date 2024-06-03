@@ -97,7 +97,8 @@ void create_branches(struct Node *root, short *pixels, int w) {
 }
 
 void preorder(struct Node *root) {
-    printf("d: %d\n", root->intensity);
+    /* printf("d: %d\n", root->intensity); */
+    printf("%d\n", root->intensity);
 
     if (root->intensity == -1) {
         preorder(root->children[0]);
@@ -174,6 +175,8 @@ int main() {
     struct Tree tree = Tree_new(&btmap);
     Tree_clear(&tree);
     Bitmap_clear(&btmap);
+
+    /* printf("Size of simpler image: %ld\n", sizeof(*btmap.pixels)); */
 
     return 0;
 }
