@@ -168,10 +168,6 @@ One method to compress an image is to store it in a tree data structure where ea
 
 </table>
 
-</td><td>
-
-
-
 </td></tr>
 </table>
 
