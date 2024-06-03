@@ -35,7 +35,7 @@ One method to compress an image is to store it in a tree data structure where ea
 >[!NOTE]
 >Each 8 lines in the sample file denotes a row in the [image](https://github.com/Gyakobo/tree-image-compression/blob/main/sample.txt) file
 
-* Assuming all the pixels are not unique, then partition the image into equal subsets, in out into 4 by 4 smaller images as shown by the below:
+* Assuming all the pixels are not unique, we then partition the image into equal subsets of 4 by 4 smaller images as shown by the below:
 
 <table>
 <tr><td>
@@ -55,6 +55,74 @@ One method to compress an image is to store it in a tree data structure where ea
 | 0 | 0 | 0 | 2 |
 
 </td></tr>
+
+<tr><td>
+
+| 1 | 1 | 1 | 1 |
+|---|---|---|---|
+| 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 |
+
+</td><td>
+
+| 1 | 1 | 0 | 3 |
+|---|---|---|---|
+| 1 | 1 | 0 | 0 |
+| 5 | 5 | 0 | 0 |
+| 5 | 5 | 0 | 0 |
+
+</td></tr>
+</table>
+
+* Afterwards we delve into the partitions more, and subsequently divide them into even smaller subsets, in this case 2 by 2 partitions. You may have noticed a recurring partain: each partition is in multiples of 2. From the getgo our partition is 8, then 4, then 2 and soon enough 1.
+
+
+<table>
+<tr><td>
+
+| 3 | 3 | 3 | 3 |
+|---|---|---|---|
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+
+</td><tr><td>
+
+<!--
+| 2 | 2 | 1 | 1 |
+|---|---|---|---|
+| 2 | 2 | 1 | 1 |
+| 0 | 5 | 1 | 0 |
+| 0 | 0 | 0 | 2 |-->
+| 2 | 2 |
+|---|---|
+| 2 | 2 |
+
+
+</td><td>
+
+| 1 | 1 |
+|---|---|
+| 1 | 1 |
+
+</td></tr>
+
+<tr><td>
+
+| 0 | 5 |
+|---|---|
+| 0 | 0 |
+
+</td><td>
+
+| 1 | 0 |
+|---|---|
+| 0 | 2 |
+
+</td></tr>
+
+</tr>
 
 <tr><td>
 
