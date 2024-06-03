@@ -87,7 +87,7 @@ One method to compress an image is to store it in a tree data structure where ea
 | 3 | 3 | 3 | 3 |
 | 3 | 3 | 3 | 3 |
 
-</td>    <td>     <tr><td>
+</td>    <td> <table>     <tr><td>
 
 | 2 | 2 |
 |---|---|
@@ -114,7 +114,7 @@ One method to compress an image is to store it in a tree data structure where ea
 |---|---|
 | 0 | 2 |
 
-</td></tr>      </td> 
+</td></tr> </table>      </td> 
 
 </tr>
 
