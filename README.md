@@ -197,8 +197,17 @@ One method to compress an image is to store it in a tree data structure where ea
 -->
 
 <table>
-<tr><td>0</td><td>5</td><tr>
-<tr><td>0</td><td>0</td><tr>
+
+<tr>
+<table><td>0</td></table>
+<table><td>5</td></table>
+</tr>
+
+<tr>
+<table><td>0</td></table>
+<table><td>0</td></table>
+</tr>
+
 </table>
 
 </td><td>
