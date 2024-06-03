@@ -323,7 +323,26 @@ void preorder(struct Node *root) {
 
 ## Code snippets
 
+The code greets you with three structs: `struct Bitmap`, `struct Node`, `struct Tree`. The `struct Bitmap` allocates space for the image and stores all of the pixel values; the `struct Node` represents a node which references four other leaf nodes; lastly, the `stuct Tree` just represents the tree data structure with a pointer to the root of the tree.  
 
+```c
+struct Bitmap {
+    int rows;
+    int cols;
+    short *pixels;
+};
+
+struct Node {
+    short intensity;
+    struct Node *children[4];
+};
+
+struct Tree {
+    struct Node *root;
+};
+```
+
+## Performance
 
 ## License
 MIT
