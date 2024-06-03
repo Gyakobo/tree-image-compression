@@ -252,9 +252,24 @@ One method to compress an image is to store it in a tree data structure where ea
 
 </td><td>
 
+<!--
 | 0 | 3 |
 |---|---|
 | 0 | 0 |
+-->
+
+<table>
+<tr>
+<td><table><tr><td>0</td></tr></table></td>
+<td><table><tr><td>3</td></tr></table></td>
+</tr>
+
+<tr>
+<td><table><tr><td>0</td></tr></table></td>
+<td><table><tr><td>0</td></tr></table></td>
+</tr>
+</table>
+
 
 </td></tr>
 
