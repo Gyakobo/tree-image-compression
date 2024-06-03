@@ -77,7 +77,6 @@ One method to compress an image is to store it in a tree data structure where ea
 
 * Afterwards we delve into the partitions more, and subsequently divide them into even smaller subsets, in this case 2 by 2 partitions. You may have noticed a recurring partain: each partition is in multiples of 2. From the getgo our partition is 8, then 4, then 2 and soon enough 1.
 
-
 <table>
 <tr><td>
 
@@ -128,14 +127,6 @@ One method to compress an image is to store it in a tree data structure where ea
 
 </td><td>
 
-<!-- 
-| 1 | 1 | 0 | 3 |
-|---|---|---|---|
-| 1 | 1 | 0 | 0 |
-| 5 | 5 | 0 | 0 |
-| 5 | 5 | 0 | 0 |
--->
-
 <table>
 
 <tr><td>
@@ -171,6 +162,99 @@ One method to compress an image is to store it in a tree data structure where ea
 </td></tr>
 </table>
 
+* As the last step we make quick work of all the last non-unique variables. Judging by the remaining 10 partitions there are only 3 subsets to worked on. This shall be our final partition.
+
+<table>
+<tr><td>
+
+| 3 | 3 | 3 | 3 |
+|---|---|---|---|
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+
+</td>    <td> <table>     <tr><td>
+
+| 2 | 2 |
+|---|---|
+| 2 | 2 |
+
+
+</td><td>
+
+| 1 | 1 |
+|---|---|
+| 1 | 1 |
+
+</td></tr><tr>
+
+<td>
+
+<!---
+| 0 | 5 |
+|---|---|
+| 0 | 0 |
+-->
+
+<table>
+<tr><td>0</td><td>5</td><tr>
+<tr><td>0</td><td>0</td><tr>
+</table>
+
+</td><td>
+
+| 1 | 0 |
+|---|---|
+| 0 | 2 |
+
+</td></tr> </table>      </td> 
+
+</tr>
+
+<tr><td>
+
+| 1 | 1 | 1 | 1 |
+|---|---|---|---|
+| 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 |
+| 1 | 1 | 1 | 1 |
+
+</td><td>
+
+<table>
+
+<tr><td>
+
+| 1 | 1 |
+|---|---|
+| 1 | 1 |
+
+</td><td>
+
+| 0 | 3 |
+|---|---|
+| 0 | 0 |
+
+</td></tr>
+
+<tr><td>
+
+| 5 | 5 |
+|---|---|
+| 5 | 5 |
+
+</td><td>
+
+| 0 | 0 |
+|---|---|
+| 0 | 0 |
+
+</td></tr>
+
+</table>
+
+</td></tr>
+</table>
 
 <image src="./assets/compression_tree.png">
 
