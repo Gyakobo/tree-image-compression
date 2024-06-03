@@ -18,7 +18,7 @@ In this example specifically we shall be compressing a grayscale image. Given th
 
 ## Methodology
 
-One method to compress an image is to store it in a tree data structure where each node would have up to 4 children. They shall present  
+One method to compress an image is to store it in a tree data structure where each node would have up to 4 children. Each of them shall represent a select partition of the image in one of the four quartiles: northwest, northeast, southwest, and southeast. Needless to say, the root node marked with a `-1` will either represent the entire image or another subset of partitions. The partitioning process will continue till each node in the partitioned subset carries the same color intensity. 
 
 
 ## License
