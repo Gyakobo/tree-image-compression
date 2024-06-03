@@ -296,5 +296,10 @@ One method to compress an image is to store it in a tree data structure where ea
 
 <image src="./assets/compression_tree.png">
 
+>[!NOTE]
+>Each circle denotes a node with 4 other leaf nodes. Each double circle is the 'end' node with no child leaf nodes(null references).
+
+## Code snippets
+
 ## License
 MIT
