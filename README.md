@@ -196,7 +196,7 @@ One method to compress an image is to store it in a tree data structure where ea
 | 0 | 0 |
 -->
 
-<table gap="1rem">
+<table style="border-collapse: seperate; border-spacing: 1rem;">
 
 <tr>
 <td>0</td>
