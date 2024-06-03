@@ -302,7 +302,7 @@ One method to compress an image is to store it in a tree data structure where ea
 >[!NOTE]
 >Each circle denotes a node with 4 other leaf nodes. Each double circle is the 'end' node with no child leaf nodes(null references).
 
-6) Finally, the image can then be encoded in a sequence of integers by performing a preorder traversal of the corresponding. 
+6) Finally, the image can then be encoded in a sequence of integers by performing a preorder traversal of the corresponding: 
 
 | -1 | 3 | -1 | 2 | 1 |
 |---|---|---|---|---|
@@ -332,7 +332,7 @@ void preorder(struct Node *root) {
 
 ## Code snippets
 
-The code greets you with three structs: `struct Bitmap`, `struct Node`, `struct Tree`. The `struct Bitmap` allocates space for the image and stores all of the pixel values; the `struct Node` represents a node which references four other leaf nodes; lastly, the `stuct Tree` just represents the tree data structure with a pointer to the root of the tree.  
+* The code greets you with three structs: `struct Bitmap`, `struct Node`, `struct Tree`. The `struct Bitmap` allocates space for the image and stores all of the pixel values; the `struct Node` represents a node which references four other leaf nodes; lastly, the `stuct Tree` just represents the tree data structure with a pointer to the root of the tree.  
 
 ```c
 struct Bitmap {
@@ -350,6 +350,7 @@ struct Tree {
     struct Node *root;
 };
 ```
+* The `struct Tree Tree_new(struct Bitmap *b)` function along with the `create_branches(...)` function then creates the tree.
 
 ## Performance
 
