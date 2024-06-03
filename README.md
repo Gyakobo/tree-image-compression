@@ -39,22 +39,23 @@ Let's consider the following image content from the given [sample.txt](https://g
 Assuming all the pixels are not unique, then partition the image into equal subsets, in out into 4 by 4 smaller images as shown by the below:
 
 <table>
-    <tr> 
-        <td>
-            | 3 | 3 | 3 | 3 |
-            |---|---|---|---|
-            | 3 | 3 | 3 | 3 |
-            | 3 | 3 | 3 | 3 |
-            | 3 | 3 | 3 | 3 |
-        </td> 
-        <td>
-            | 3 | 3 | 3 | 3 |
-            |---|---|---|---|
-            | 3 | 3 | 3 | 3 |
-            | 3 | 3 | 3 | 3 |
-            | 3 | 3 | 3 | 3 |
-        </td> 
-    </tr>
+<tr><td>
+
+| 3 | 3 | 3 | 3 |
+|---|---|---|---|
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+
+</td><td>
+
+| 3 | 3 | 3 | 3 |
+|---|---|---|---|
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+| 3 | 3 | 3 | 3 |
+
+</td></tr>
 </table>
 
 
