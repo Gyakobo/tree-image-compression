@@ -33,13 +33,30 @@ Let's consider the following image content from the given [sample.txt](https://g
 | 1 | 1 | 1 | 1 | 5 | 5 | 0 | 0 |
 | 1 | 1 | 1 | 1 | 5 | 5 | 0 | 0 |
 
-
-
 >[!NOTE]
->Each 8 lines in the sample file denotes a row in the image 
+>Each 8 lines in the sample file denotes a row in the [image](https://github.com/Gyakobo/tree-image-compression/blob/main/sample.txt) file
 
+Assuming all the pixels are not unique, then partition the image into equal subsets, in out into 4 by 4 smaller images as shown by the below:
 
+<table>
+    <tr> 
+        <td>
+            | 3 | 3 | 3 | 3 |
+            |---|---|---|---|
+            | 3 | 3 | 3 | 3 |
+            | 3 | 3 | 3 | 3 |
+            | 3 | 3 | 3 | 3 |
+        </td> 
 
+        <td>
+            | 3 | 3 | 3 | 3 |
+            |---|---|---|---|
+            | 3 | 3 | 3 | 3 |
+            | 3 | 3 | 3 | 3 |
+            | 3 | 3 | 3 | 3 |
+        </td> 
+    </tr>
+</table>
 
 
 <image src="./assets/compression_tree.png">
