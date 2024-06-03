@@ -196,8 +196,7 @@ One method to compress an image is to store it in a tree data structure where ea
 | 0 | 0 |
 -->
 
-<table style="border-collapse: seperate; border-spacing: 1rem;">
-
+<table>
 <tr>
 <td><table><tr><td>0</td></tr></table></td>
 <td><table><tr><td>5</td></tr></table></td>
@@ -207,7 +206,6 @@ One method to compress an image is to store it in a tree data structure where ea
 <td><table><tr><td>0</td></tr></table></td>
 <td><table><tr><td>0</td></tr></table></td>
 </tr>
-
 </table>
 
 </td><td>
@@ -215,6 +213,18 @@ One method to compress an image is to store it in a tree data structure where ea
 | 1 | 0 |
 |---|---|
 | 0 | 2 |
+
+<table>
+<tr>
+<td><table><tr><td>1</td></tr></table></td>
+<td><table><tr><td>0</td></tr></table></td>
+</tr>
+
+<tr>
+<td><table><tr><td>0</td></tr></table></td>
+<td><table><tr><td>2</td></tr></table></td>
+</tr>
+</table>
 
 </td></tr> </table>      </td> 
 
