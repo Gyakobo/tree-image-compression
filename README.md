@@ -47,7 +47,6 @@ Assuming all the pixels are not unique, then partition the image into equal subs
             | 3 | 3 | 3 | 3 |
             | 3 | 3 | 3 | 3 |
         </td> 
-
         <td>
             | 3 | 3 | 3 | 3 |
             |---|---|---|---|
