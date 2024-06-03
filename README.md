@@ -5,8 +5,11 @@
 ![image](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![image](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
 
+>[!NOTE]
+>Each processed image file by default have to be in a form a square in order to be processed.
+
 >[!WARNING]
->This project hasn't yet been tested as of late and is still in development
+>This project hasn't yet been tested as of late and is still in development.
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
