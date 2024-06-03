@@ -170,7 +170,7 @@ void Bitmap_clear(struct Bitmap *b) {
 }
 
 int main() {
-    struct Bitmap btmap = Bitmap_new("sample.txt");
+    struct Bitmap btmap = Bitmap_new("input.txt");
     struct Tree tree = Tree_new(&btmap);
     Tree_clear(&tree);
     Bitmap_clear(&btmap);
