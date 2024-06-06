@@ -80,7 +80,7 @@ One method to compress an image is to store it in a tree data structure where ea
 
 3) Afterwards we delve into the partitions more, and subsequently divide them into even smaller subsets, in this case 2 by 2 partitions. You may have noticed a recurring partain: each partition is in multiples of 2. From the getgo our partition is 8, then 4, then 2 and soon enough 1.
 
-<table style="float: left; width: 100%;">
+<table>
 <tr><td>
 
 | 3 | 3 | 3 | 3 |
