@@ -167,7 +167,7 @@ One method to compress an image is to store it in a tree data structure where ea
 
 4) As the last step we make quick work of all the last non-unique variables. Judging by the remaining 10 partitions there are only 3 subsets to worked on. This shall be our final partition.
 
-<table style="border-collapse: collapse; width:100%;">
+<table>
 <tr><td>
 
 | 3 | 3 | 3 | 3 |
