@@ -9,7 +9,7 @@
 >Each processed image file by default have to be in a form a square in order to be processed.
 
 >[!WARNING]
->This project hasn't yet been tested as of late and is still in development. I'd personally love to add a pre-order traversal decoder to this project on par with the encoder program. I'd also love to make a compare to my other compression algorithm [sparse matrix](https://github.com/Gyakobo/sparse_matrix)
+>This project hasn't yet been tested as of late and is still in development. I'd personally love to add a pre-order traversal decoder to this project on par with the encoder program. I'd also love to make a compare to my other compression algorithm [sparse matrix](https://github.com/Gyakobo/sparse_matrix).
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
