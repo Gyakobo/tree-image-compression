@@ -9,7 +9,7 @@
 >Each processed image file by default have to be in a form a square in order to be processed.
 
 >[!WARNING]
->This project hasn't yet been tested as of late and is still in development.
+>This project hasn't yet been tested as of late and is still in development. I'd personally love to add a pre-order traversal decoder to this project on par with the encoder program. I'd also love to make a compare to my other compression algorithm [sparse matrix](https://github.com/Gyakobo/sparse_matrix)
 
 Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
@@ -357,6 +357,9 @@ struct Tree {
 When it comes to performance the numbers pretty much vary. If for instance an image has little to no unique values then the compression would be at its best and utmost performance. Otherwise, the compression would have varying results. 
 
 In our case the [input file](./input.txt) weights `128 bytes`, and when compressed, the [output file](./output.txt) weights just `56 bytes`. Thus so far the compressed file halved the size of the original. 
+
+>[!IMPORTANT]
+>Once again it's important to note that this compression algorithm is most prevalent when there are repeating elements in the image. 
 
 ## License
 MIT
