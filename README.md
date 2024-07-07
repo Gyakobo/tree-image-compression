@@ -5,13 +5,14 @@
 ![image](https://img.shields.io/badge/CMake-064F8C?style=for-the-badge&logo=cmake&logoColor=white)
 ![image](https://img.shields.io/badge/windows%20terminal-4D4D4D?style=for-the-badge&logo=windows%20terminal&logoColor=white)
 
+Author: [Andrew Gyakobo](https://github.com/Gyakobo)
+
 >[!NOTE]
 >Each processed image file by default have to be in a form a square in order to be processed.
 
 >[!WARNING]
 >This project hasn't yet been tested as of late and is still in development. I'd personally love to add a pre-order traversal decoder to this project on par with the encoder program. I'd also love to make a compare to my other compression algorithm [sparse matrix](https://github.com/Gyakobo/sparse_matrix).
 
-Author: [Andrew Gyakobo](https://github.com/Gyakobo)
 
 This project aims utilize a graph(a tree) as a form of two-dimensional image compression by implementing a special kind of data structure where it basically groups repeating variables into a node and ungroups non-repeating values into their own nodes.
 
