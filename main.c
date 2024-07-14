@@ -96,6 +96,7 @@ void create_branches(struct Node *root, short *pixels, int w) {
 
 }
 
+
 void preorder(struct Node *root) {
     /* printf("d: %d\n", root->intensity); */
     printf("%d\n", root->intensity);
